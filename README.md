@@ -114,7 +114,7 @@ $$每人分摊 = 总金额 	imes \frac{个人计费天数}{所有租客总计费
 
 ### 3. 动态排序说明
 在查询租客列表时，支持以下参数：
-- `prop`: 排序字段 (`name`, `checkInDate`, `checkOutDate`)。
+- `prop`: 排序字段 (`name`, `checkInDate`, `id`)。
 - `order`: 排序方向 (`ascending`, `descending`)。
 - **注意**：当使用 `name` 排序时，系统会自动追加 `checkInDate ASC` 作为次要排序规则。
 
